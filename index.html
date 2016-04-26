@@ -31,6 +31,14 @@
                 vb.style.cssText = "position:fixed; z-index:99; left:40px; top:40px; background-image:url(images/voicechange.png); width:76px; height:60px;";
             }
         }
+        function showMap() {
+            document.getElementById("pic04").style.visibility="hidden";
+            document.getElementById("ditu").style.visibility="visible";
+        }
+        function showBody() {
+            document.getElementById("ditu").style.visibility="hidden";
+            document.getElementById("pic04").style.visibility="visible";
+        }
     </script>
 </head>
 <body onLoad="initPage()">
@@ -42,13 +50,16 @@
     <div id="pic01"><img  src="images/pic-01.jpg" width="100%" height="100%"> </div>
     <div id="pic02"><img src="images/pic-02.jpg" width="100%" height="100%"></div>
     <div id="pic03"><img src="images/pic-03.jpg" width="100%" height="100% "></div>
-    <div  style="position: fixed;left: 50%">
+    <div id="pic04" style="position: fixed;left: 50%">
         <smalllogo><img  style="margin-top: 90px;margin-left: -110px"  src="images/toplogo-small.png"></smalllogo>
         <times><img style="margin-top: 100px;margin-left: -270px" id="time" src="images/time.png"></times>
     </div>
+    <div id="ditu"  style="position: fixed;left: 50%;visibility: hidden">
+        <img  src="images/didian.png" style="margin-left: -400px;margin-top: 100px"/>
+    </div>
     <div id="big_C" class="buttomtreeanim">
-        <img id="p1leaf01" src="images/tree-cn.png">
-        <img class="p1leaf0203" src="images/tree-eng.png">
+        <img id="p1leaf01" src="images/tree-cn.png" onclick="showBody()">
+        <img class="p1leaf0203" src="images/tree-eng.png" onclick="showMap()">
         <img class="p1leaf0203" src="images/tree-replay.png" onClick="location.reload()">
     </div>
 </div>
