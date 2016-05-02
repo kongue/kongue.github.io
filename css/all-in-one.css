@@ -92,9 +92,9 @@ opacity:1
 	_position: absolute;
 	z-index:99;
 	width: 48px;
-	height: 462px;
-	right: 100px;
-	bottom:-150px;
+	height: 402px;
+	left: 540px;
+	bottom:-200px;
 	background: url(../images/tree.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
@@ -174,11 +174,13 @@ opacity:1
 }
 /*page1-2*/
 #p1leaf01 {
-	margin-top: 80px;
-	margin-left: -80px;
+	margin-top: 70px;
+	margin-left: -60px;
+	height: 40px;
 }
 .p1leaf0203 {
-	margin-left: -80px;
+	margin-left: -60px;
+	height: 40px;
 }
 .p1leaf0303 {
 	margin-left: -80px;
