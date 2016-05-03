@@ -2,13 +2,15 @@
 <html lang="en-us">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width">
     <title>我们结婚了!</title>
     <link href="css/all-in-one.css" rel="stylesheet" type="text/css">
     <script>
         function initPage()
         {
-//            alert(document.body.clientWidth);
+            if(document.body.clientWidth<=640){
+
+            }
             var objLoading = document.getElementById("load");
             if (objLoading != null)
             {
@@ -51,9 +53,9 @@
     <div id="pic01" ><img  src="images/pic-01.gif"  width="100%" height="100%"> </div>
     <div id="pic02" ><img src="images/pic-02.gif"  width="100%" height="100%"></div>
     <div id="pic03" ><img src="images/pic-03.gif" width="100%" height="100%"></div>
-    <div id="pic04"  style="margin-left: auto;margin-right: auto;text-align: center">
-        <img  style="margin-top: 90px;padding-left: 50%"  src="images/toplogo-small.png">
-        <img style="margin-top: 100px" id="time" src="images/time.png">
+    <div id="pic04" style="position: fixed;left: 320px">
+        <smalllogo><img  style="margin-top: 90px;margin-left: -120px"  src="images/toplogo-small.png"></smalllogo>
+        <times><img style="margin-top: 100px;margin-left: -280px" id="time" src="images/time.png"></times>
     </div>
     <div id="ditu"  style="position: fixed;left: 320px;visibility: hidden">
         <img  src="images/didian.png" style="margin-left: -320px;margin-top: 120px"/>
