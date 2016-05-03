@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+            <state relative-caret-position="236">
+              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,16 +39,6 @@
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#audio#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all-in-one.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/all-in-one.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="193" column="1" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -222,12 +212,12 @@
       <workItem from="1461900162738" duration="1479000" />
       <workItem from="1462157949012" duration="105000" />
       <workItem from="1462158367237" duration="4856000" />
-      <workItem from="1462241148544" duration="9932000" />
+      <workItem from="1462241148544" duration="10037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34263000" />
+    <option name="totallyTimeSpent" value="34368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="1616" height="876" extended-state="0" />
@@ -553,14 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/all-in-one.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="193" column="1" selection-start-line="193" selection-start-column="1" selection-end-line="193" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/mml3/mathml3-content.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -569,10 +551,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/all-in-one.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="707" column="1" selection-start-line="707" selection-start-column="1" selection-end-line="707" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        <state relative-caret-position="236">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
